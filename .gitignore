@@ -1,0 +1,25 @@
+# Defines which files and directories Git ignores or does not ignore.
+
+# ----- Build artifacts -----
+build/
+*.exe
+*.d
+*.gch
+*.o
+*.obj
+*.out
+
+# ----- Debug files -----
+*.dSYM/
+*.ilk
+*.pdb
+
+# ----- Runtime data -----
+/leaderboard.txt
+
+# ----- OS-generated files -----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Note: data/leaderboard.txt is tracked intentionally as sample data.
