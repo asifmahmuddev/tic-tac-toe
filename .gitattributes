@@ -1,0 +1,7 @@
+# Defines Git attributes applied to repository paths.
+
+# ----- Line endings -----
+* text=auto eol=lf
+
+# ----- Binary files -----
+*.exe               binary
